@@ -1,0 +1,16 @@
+name: rManagerReloaded
+version: 2.0.0
+main: org.whitehack97.rManager.rManagerReloaded
+author: ReanKR
+depend: [Vault, Factions]
+description: To provide convenient functions in the REAN SERVER
+
+commands:
+  rmanager.main:
+    description: §erManagerReloaded Main Commands
+    aliases: [rm, rmanager]
+
+permissions:
+  rmanager.*:
+    description: MyVision 명령어를 모두 사용할 수 있는 권한
+    default: true
